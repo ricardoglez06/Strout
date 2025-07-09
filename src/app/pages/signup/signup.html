@@ -1,0 +1,125 @@
+<div class="grid grid-cols-[1fr_1fr] min-h-[105vh] bg-white">
+    <!-- EXTRA INFO -->
+    <section class="h-auto overflow-hidden bg-gradient-to-br from-slate-900 to-zinc-600 text-white pt-18 pl-35">
+        <div>
+            <h1 class="text-4xl font-medium mb-5">Create your free account</h1>
+            <p class="mb-5 text-sm">Explore the main features of Strout to help you train smarter.</p>
+            <details class="w-100 group ">
+                <summary class="flex mb-4 cursor-pointer">
+                    See what´s included
+                    <span class="ml-2 transform transition-transform duration-300 group-open:rotate-90">▶</span>
+                </summary>
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li class="font-medium">Personalized workout plans</li>
+                        <p class="text-sm mb-4">Get custom routines tailored to your goals, fitness level, and available equipment.</p>
+                        <li class="font-medium">Progress tracking</li>
+                        <p class="text-sm mb-4">Monitor your performance over time with real-time stats and weekly reports.</p>
+                        <li class="font-medium">Smart training guidance</li>
+                        <p class="text-sm mb-4">Receive intelligent recommendations based on your history and training habits.</p>
+                        <li class="font-medium">User-friendly interface</li>
+                        <p class="text-sm mb-4">Navigate your training dashboard with ease through a clean and intuitive design.</p>
+                    </ul>
+            </details>
+        </div>
+        <img src="image.webp" alt="Descripción de la imagen" 
+        class="h-[500px] w-auto object-contain opacity-30
+        mask-radial-at-center mask-radial-from-50% mask-radial-to-70%
+        relative -left-10 top-25">
+    </section>
+
+    <!-- SIGN UP INFO -->
+    <section class="text-black ml-33 mt-4">
+
+        <header class="flex mb-10 ml-80 text-gray-600 text-sm">
+            <p>Already have an account?</p>
+            <a href="" class="ml-2 underline">Log in &rarr;</a>
+        </header>
+
+        <div class="space-y-3 max-w-[450px]">
+            <p class="font-medium text-2xl mb-6">Sign up to Strout</p>
+
+            <div class="flex flex-col space-y-1">
+                <label for="email" class="mb-1.5 font-medium">
+                    Username<sup class="text-xs">*</sup>
+                </label>
+                <input
+                id="username"
+                type="text"
+                title="Username"
+                placeholder="Username"
+                class="border border-zinc-400 rounded-md p-1.5 pl-3 placeholder-gray-500 focus:outline-blue-500" 
+                />
+                <p class="text-[13px] text-gray-600">Username may only contain alphanumeric characters or single hyphens, and cannot begin or end with a hyphen.</p>
+            </div>
+            
+            <div class="flex flex-col">
+                <label for="email" class="mb-1.5 font-medium">
+                    Email<sup class="text-xs">*</sup>
+                </label>
+                <input 
+                id="email"
+                type="email"
+                title="Email"
+                placeholder="Email"
+                class="border border-zinc-400 rounded-md p-1.5 pl-3 placeholder-gray-500 focus:outline-blue-500" 
+                />
+            </div>
+
+            <div class="flex flex-col space-y-1">
+                <label for="password" class="mb-1.5 font-medium">
+                    Password<sup class="text-xs">*</sup>
+                </label>
+                <input
+                id="password"
+                type="password"
+                title="Password"
+                placeholder="Password"
+                class="border border-zinc-400 rounded-md p-1.5 pl-3 placeholder-gray-500 focus:outline-blue-500" 
+                />
+                <p class="text-[13px] text-gray-600">Password should be at least 15 characters OR at least 8 characters including a number and a lowercase letter.</p>
+            </div>
+
+            <div class="flex flex-col space-y-1">
+                <label for="email" class="mb-1.5 font-medium">
+                    Confirm password<sup class="text-xs">*</sup>
+                </label>
+                <input
+                id="confirmPwd"
+                type="password"
+                title="Confirm password"
+                placeholder="Confirm password"
+                class="border border-zinc-400 rounded-md p-1.5 pl-3 placeholder-gray-500 focus:outline-blue-500" 
+                />
+            </div>
+
+            <div class="flex flex-col space-y-1">
+                <label for="email" class="mb-1.5 font-medium">
+                    Your country/Region<sup class="text-xs">*</sup>
+                </label>
+                <select id="country" class="border-1 rounded p-1.5 pl-3 text-gray-500">
+                    <option value="0" disabled selected>Select your country</option> 
+                <!-- Agrega más países aquí -->
+                </select>
+                <p class="text-[13px] text-gray-600">For compliance reasons, we’re required to collect country information to send you occasional updates and announcements.</p>
+            </div>
+
+            <div class="flex flex-col">
+                <label for="emailPref">Email preferences</label>
+                <div class="flex items-center gap-2">
+                <input
+                    id="emailPref"
+                    type="checkbox"
+                    title="Email preferences"
+                    class="size-4.5"
+                />
+                <p>Receive announcements</p>
+                </div>
+            </div>
+
+            <a class="h-13 rounded-[10px] center flex justify-center items-center bg-neutral-800 text-white text-[18px] cursor-pointer font-semibold hover:bg-zinc-700">
+                Continue &gt;
+            </a>
+            
+        </div>
+    </section>
+</div>
