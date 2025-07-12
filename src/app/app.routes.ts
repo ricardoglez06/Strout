@@ -6,15 +6,17 @@ import { Login } from '@pages/login/login'
 import { Signup } from '@pages/signup/signup'
 
 import { MainLayout } from '@layouts/main-layout/main-layout'
+import { PwdReset } from '@pages/pwd-reset/pwd-reset';
 
 export const routes: Routes = [
     {
         path: '',
         component: PublicLayout,
         children: [
-            { path: '', component: Landing },
+            { path: '', component: Login },
             { path: 'login', component: Login },
             { path: 'signup', component: Signup },
+            { path: 'pdwreset', component: PwdReset}
         ]
     },
     {

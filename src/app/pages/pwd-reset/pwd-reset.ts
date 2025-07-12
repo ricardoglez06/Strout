@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-login',
+  selector: 'app-pwd-reset',
   imports: [RouterModule],
-  templateUrl: './login.html',
+  templateUrl: './pwd-reset.html',
   styles: ``
 })
-export class Login {
+export class PwdReset {
 
 }
