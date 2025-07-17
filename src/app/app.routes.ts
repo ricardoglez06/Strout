@@ -13,7 +13,7 @@ export const routes: Routes = [
         path: '',
         component: PublicLayout,
         children: [
-            { path: '', component: Login },
+            { path: '', component: Landing },
             { path: 'login', component: Login },
             { path: 'signup', component: Signup },
             { path: 'pdwreset', component: PwdReset}
